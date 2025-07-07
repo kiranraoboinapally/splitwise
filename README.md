@@ -2,7 +2,7 @@
 
 ---
 
-# Splitwise Clone – Neurix Full-Stack SDE Intern Assignment
+# Splitwise Clone –  Java Full-Stack Project
 
 ## Overview
 
