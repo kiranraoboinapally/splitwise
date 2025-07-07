@@ -6,7 +6,7 @@
 
 ## Overview
 
-Thank you for your interest in Neurix! In this assignment, we want to evaluate your creativity, coding skills, and ability to build a full-stack application. You’ll be building a simplified **Splitwise Clone** that helps users track shared expenses and determine who owes whom. The core features include group creation, expense splitting, and balance tracking.
+I’ll be building a simplified **Splitwise Clone** that helps users track shared expenses and determine who owes whom. The core features include group creation, expense splitting, and balance tracking.
 
 ## Core Requirements
 
