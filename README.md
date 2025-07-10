@@ -80,8 +80,8 @@ Enhance the user experience by adding an AI chatbot that can interpret natural l
 
 1. **GitHub Repository** with the following structure:
 
-   * **backend/**: Spring Boot application.
-   * **frontend/**: React application.
+   * **back/SplitWise**: Spring Boot application.
+   * **front/**: React application.
    * **docker-compose.yml**: To set up and run the full stack locally.
 
 2. **README.md** with:
@@ -237,10 +237,77 @@ Enhance the user experience by adding an AI chatbot that can interpret natural l
 
 ---
 
-## Assumptions and Considerations
+## **Contributing to Splitwise Clone**
 
-* **No authentication/authorization**: The system does not require user login or security, as it’s meant to focus purely on expense tracking.
-* **No real-time updates**: The system does not implement WebSocket or any real-time mechanisms for instant balance updates.
-* **No payment gateway integration**: This clone focuses only on expense tracking; no actual payment or settlement is involved.
+We appreciate your interest in contributing to the **Splitwise Clone** project! Here's how you can contribute:
+
+### **Steps to Contribute:**
+
+1. **Fork and Clone the Repository**
+
+   * Fork the repository by clicking the **Fork** button on the top right of the repository page on GitHub.
+   * Clone your forked repository to your local machine using:
+
+     ```bash
+     git clone https://github.com/kiranraoboinapally/splitwise.git
+     ```
+
+2. **Create a New Branch**
+
+   * After cloning, navigate into the project directory:
+
+     ```bash
+     cd splitwise
+     ```
+
+   * **Create a new branch** for your changes:
+
+     ```bash
+     git checkout -b mod
+     ```
+
+3. **Make Your Changes**
+
+   * Implement the desired features or fixes in the backend (Spring Boot + MySQL) or frontend (React + TailwindCSS).
+
+4. **Stage and Commit Your Changes**
+
+   * After making changes, stage and commit them:
+
+     ```bash
+     git add .
+     git commit -m "Added feature for group creation"
+     ```
+
+5. **Push Changes to Your Fork**
+
+   * Push your changes to your forked repository:
+
+     ```bash
+     git push origin mod
+     ```
+
+6. **Create a Pull Request (PR)**
+
+   * Go to your forked repository on GitHub and click **Compare & Pull Request**.
+   * In your PR description, include what you’ve done and link to any related issues (e.g., `Closes #2`).
+
+7. **Wait for Review and Merge**
+
+   * After submitting the PR, it will be reviewed and merged if everything looks good.
+
+---
+
+## **Assumptions and Considerations**
+
+* **No authentication/authorization**: This project does not require user login or security.
+* **No real-time updates**: The system doesn’t implement WebSocket or any real-time mechanisms.
+* **No payment gateway integration**: This project is focused only on tracking shared expenses.
+
+---
+
+### **Thank You for Contributing!**
+
+We appreciate your help in improving the **Splitwise Clone** project! If you have any questions or need assistance, please feel free to open an issue or contact us directly.
 
 ---
